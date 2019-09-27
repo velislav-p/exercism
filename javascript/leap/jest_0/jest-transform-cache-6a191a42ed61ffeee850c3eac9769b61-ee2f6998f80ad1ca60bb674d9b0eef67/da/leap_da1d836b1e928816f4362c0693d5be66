@@ -1,0 +1,28 @@
+013f9e73b9a949800fb6100112e133d9
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isLeap = void 0;
+
+// on every year that is evenly divisible by 4
+// except every year that is evenly divisible by 100
+// unless the year is also evenly divisible by 400
+// Start from the exception and end with the general rule, add any other variables in between???
+const isLeap = year => {
+  if (year % 400 === 0 && year % 100 === 0 && year % 4 === 0) {
+    return true;
+  }
+
+  if (year % 100 === 0 && year % 4 === 0) {
+    return false;
+  }
+
+  if (year % 4 === 0) {
+    return true;
+  }
+};
+
+exports.isLeap = isLeap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsiaXNMZWFwIiwieWVhciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUdBO0FBRU8sTUFBTUEsTUFBTSxHQUFJQyxJQUFELElBQVU7QUFFNUIsTUFBR0EsSUFBSSxHQUFHLEdBQVAsS0FBZSxDQUFmLElBQW9CQSxJQUFJLEdBQUcsR0FBUCxLQUFlLENBQW5DLElBQXdDQSxJQUFJLEdBQUcsQ0FBUCxLQUFhLENBQXhELEVBQTBEO0FBQ3RELFdBQU8sSUFBUDtBQUNIOztBQUVELE1BQUdBLElBQUksR0FBRyxHQUFQLEtBQWUsQ0FBZixJQUFvQkEsSUFBSSxHQUFHLENBQVAsS0FBYSxDQUFwQyxFQUFzQztBQUNsQyxXQUFPLEtBQVA7QUFDSDs7QUFFRCxNQUFHQSxJQUFJLEdBQUcsQ0FBUCxLQUFhLENBQWhCLEVBQWtCO0FBQ2QsV0FBTyxJQUFQO0FBQ0g7QUFHSixDQWZNIiwic291cmNlc0NvbnRlbnQiOlsiLy8gb24gZXZlcnkgeWVhciB0aGF0IGlzIGV2ZW5seSBkaXZpc2libGUgYnkgNFxuLy8gZXhjZXB0IGV2ZXJ5IHllYXIgdGhhdCBpcyBldmVubHkgZGl2aXNpYmxlIGJ5IDEwMFxuLy8gdW5sZXNzIHRoZSB5ZWFyIGlzIGFsc28gZXZlbmx5IGRpdmlzaWJsZSBieSA0MDBcblxuXG4vLyBTdGFydCBmcm9tIHRoZSBleGNlcHRpb24gYW5kIGVuZCB3aXRoIHRoZSBnZW5lcmFsIHJ1bGUsIGFkZCBhbnkgb3RoZXIgdmFyaWFibGVzIGluIGJldHdlZW4/Pz9cblxuZXhwb3J0IGNvbnN0IGlzTGVhcCA9ICh5ZWFyKSA9PiB7XG5cbiAgICBpZih5ZWFyICUgNDAwID09PSAwICYmIHllYXIgJSAxMDAgPT09IDAgJiYgeWVhciAlIDQgPT09IDApe1xuICAgICAgICByZXR1cm4gdHJ1ZTtcbiAgICB9XG5cbiAgICBpZih5ZWFyICUgMTAwID09PSAwICYmIHllYXIgJSA0ID09PSAwKXtcbiAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgIH1cblxuICAgIGlmKHllYXIgJSA0ID09PSAwKXtcbiAgICAgICAgcmV0dXJuIHRydWU7XG4gICAgfVxuXG5cbn07XG4iXX0=

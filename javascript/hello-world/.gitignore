@@ -1,0 +1,16 @@
+# Hidden files and backup files
+.*
+*~
+
+# KDE
+.directory
+
+# Whitelisted files
+!.gitignore
+
+# IDE files
+nbproject/
+.idea/
+
+# Cache files
+node_modules

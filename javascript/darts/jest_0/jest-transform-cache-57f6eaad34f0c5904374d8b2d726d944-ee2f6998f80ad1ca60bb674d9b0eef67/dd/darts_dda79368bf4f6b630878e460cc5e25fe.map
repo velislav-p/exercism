@@ -1,0 +1,1 @@
+{"version":3,"sources":["darts.js"],"names":["solve","x","y"],"mappings":";;;;;;;AAAO,MAAMA,KAAK,GAAG,CAACC,CAAD,EAAGC,CAAH,KAAS;AAC1B,MAAGD,CAAC,KAAK,CAAN,IAAWC,CAAC,KAAK,CAApB,EAAsB;AAClB,WAAO,CAAP;AACH;AACJ,CAJM","sourcesContent":["export const solve = (x,y) => {\n    if(x === 0 || y === 0){\n        return 0;\n    }\n};"]}

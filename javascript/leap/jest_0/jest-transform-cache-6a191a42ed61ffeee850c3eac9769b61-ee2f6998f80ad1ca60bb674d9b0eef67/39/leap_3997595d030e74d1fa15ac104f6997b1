@@ -1,0 +1,20 @@
+04055b8419acf42ec5af18ef6e7540f4
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isLeap = void 0;
+
+// on every year that is evenly divisible by 4
+// except every year that is evenly divisible by 100
+// unless the year is also evenly divisible by 400
+const isLeap = year => {
+  return year % 100 === 0 ? year % 400 : year % 4;
+}; // export const isLeap = function(year) {
+//     return year % 100 === 0 ? year % 400 === 0 : year % 4 === 0;
+// };
+
+
+exports.isLeap = isLeap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsiaXNMZWFwIiwieWVhciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUVPLE1BQU1BLE1BQU0sR0FBSUMsSUFBRCxJQUFVO0FBQzVCLFNBQU9BLElBQUksR0FBRyxHQUFQLEtBQWUsQ0FBZixHQUFtQkEsSUFBSSxHQUFHLEdBQTFCLEdBQWdDQSxJQUFJLEdBQUcsQ0FBOUM7QUFDSCxDQUZNLEMsQ0FLUDtBQUNBO0FBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBvbiBldmVyeSB5ZWFyIHRoYXQgaXMgZXZlbmx5IGRpdmlzaWJsZSBieSA0XG4vLyBleGNlcHQgZXZlcnkgeWVhciB0aGF0IGlzIGV2ZW5seSBkaXZpc2libGUgYnkgMTAwXG4vLyB1bmxlc3MgdGhlIHllYXIgaXMgYWxzbyBldmVubHkgZGl2aXNpYmxlIGJ5IDQwMFxuXG5leHBvcnQgY29uc3QgaXNMZWFwID0gKHllYXIpID0+IHtcbiAgICByZXR1cm4geWVhciAlIDEwMCA9PT0gMCA/IHllYXIgJSA0MDAgOiB5ZWFyICUgNDtcbn07XG5cblxuLy8gZXhwb3J0IGNvbnN0IGlzTGVhcCA9IGZ1bmN0aW9uKHllYXIpIHtcbi8vICAgICByZXR1cm4geWVhciAlIDEwMCA9PT0gMCA/IHllYXIgJSA0MDAgPT09IDAgOiB5ZWFyICUgNCA9PT0gMDtcbi8vIH07XG4iXX0=

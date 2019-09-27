@@ -1,0 +1,12 @@
+87b5f744096f558823768c28f9c9abd6
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.colorCode = void 0;
+
+const colorCode = () => {};
+
+exports.colorCode = colorCode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2lzdG9yLWNvbG9yLmpzIl0sIm5hbWVzIjpbImNvbG9yQ29kZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLFNBQVMsR0FBRyxNQUFNLENBRTlCLENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgY29sb3JDb2RlID0gKCkgPT4ge1xuXG59OyJdfQ==

@@ -1,0 +1,14 @@
+042ea608e0b280601057c2177764d72f
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.encode = void 0;
+
+const encode = string => {
+  return string.length < 1 ? string : "";
+};
+
+exports.encode = encode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ1bi1sZW5ndGgtZW5jb2RpbmcuanMiXSwibmFtZXMiOlsiZW5jb2RlIiwic3RyaW5nIiwibGVuZ3RoIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsTUFBTSxHQUFJQyxNQUFELElBQVk7QUFDOUIsU0FBT0EsTUFBTSxDQUFDQyxNQUFQLEdBQWdCLENBQWhCLEdBQW9CRCxNQUFwQixHQUE2QixFQUFwQztBQUNILENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZW5jb2RlID0gKHN0cmluZykgPT4ge1xuICAgIHJldHVybiBzdHJpbmcubGVuZ3RoIDwgMSA/IHN0cmluZyA6IFwiXCI7XG59OyJdfQ==

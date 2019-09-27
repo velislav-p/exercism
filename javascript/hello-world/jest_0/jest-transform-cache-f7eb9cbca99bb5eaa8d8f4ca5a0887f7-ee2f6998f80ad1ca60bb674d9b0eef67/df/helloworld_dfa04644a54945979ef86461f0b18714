@@ -1,0 +1,18 @@
+bc15b5aec8e647a8a7205c705a631546
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.hello = void 0;
+
+//
+// This is only a SKELETON file for the 'Hello World' exercise. It's been provided as a
+// convenience to get you started writing code faster.
+//
+const hello = () => {
+  return "Hello World!";
+};
+
+exports.hello = hello;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbGxvLXdvcmxkLmpzIl0sIm5hbWVzIjpbImhlbGxvIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFFTyxNQUFNQSxLQUFLLEdBQUcsTUFBTTtBQUN2QixTQUFPLGNBQVA7QUFDSCxDQUZNIiwic291cmNlc0NvbnRlbnQiOlsiLy9cbi8vIFRoaXMgaXMgb25seSBhIFNLRUxFVE9OIGZpbGUgZm9yIHRoZSAnSGVsbG8gV29ybGQnIGV4ZXJjaXNlLiBJdCdzIGJlZW4gcHJvdmlkZWQgYXMgYVxuLy8gY29udmVuaWVuY2UgdG8gZ2V0IHlvdSBzdGFydGVkIHdyaXRpbmcgY29kZSBmYXN0ZXIuXG4vL1xuXG5leHBvcnQgY29uc3QgaGVsbG8gPSAoKSA9PiB7XG4gICAgcmV0dXJuIFwiSGVsbG8gV29ybGQhXCI7XG59O1xuIl19

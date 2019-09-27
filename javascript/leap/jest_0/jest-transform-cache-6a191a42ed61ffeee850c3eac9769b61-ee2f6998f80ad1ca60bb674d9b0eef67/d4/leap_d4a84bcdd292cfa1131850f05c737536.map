@@ -1,0 +1,1 @@
+{"version":3,"sources":["leap.js"],"names":["leap"],"mappings":";;;;;;;AAAO,MAAMA,IAAI,GAAG,MAAM,CAEzB,CAFM","sourcesContent":["export const leap = () => {\n\n}"]}

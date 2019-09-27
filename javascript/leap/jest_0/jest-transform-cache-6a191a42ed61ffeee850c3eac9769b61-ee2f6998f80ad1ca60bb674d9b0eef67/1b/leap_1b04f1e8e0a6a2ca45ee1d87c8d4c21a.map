@@ -1,0 +1,1 @@
+{"version":3,"sources":["leap.js"],"names":["leap","year"],"mappings":";;;;;;;AAAO,MAAMA,IAAI,GAAIC,IAAD,IAAU;AAE1B,MAAGA,IAAI,GAAG,CAAP,KAAa,CAAhB,EAAkB;AACd,WAAO,aAAP;AACH;AACJ,CALM","sourcesContent":["export const leap = (year) => {\n\n    if(year % 4 !== 0){\n        return \"common year\";\n    }\n};"]}

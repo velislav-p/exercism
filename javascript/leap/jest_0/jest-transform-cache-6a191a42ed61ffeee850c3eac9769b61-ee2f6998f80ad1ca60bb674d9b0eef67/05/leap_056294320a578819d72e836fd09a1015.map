@@ -1,0 +1,1 @@
+{"version":3,"sources":["leap.js"],"names":["isLeap","year"],"mappings":";;;;;;;AAAO,MAAMA,MAAM,GAAIC,IAAD,IAAU,CAI/B,CAJM","sourcesContent":["export const isLeap = (year) => {\n\n\n\n};"]}

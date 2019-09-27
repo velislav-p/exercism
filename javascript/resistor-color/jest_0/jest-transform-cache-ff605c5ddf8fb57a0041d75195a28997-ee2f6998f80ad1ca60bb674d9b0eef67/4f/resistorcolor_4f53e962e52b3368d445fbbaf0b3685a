@@ -1,0 +1,26 @@
+b2b23e53b3f8244681d7ed79c304120d
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.colorCode = void 0;
+
+const colorCode = color => {
+  switch (color.toLowerCase()) {
+    case 'black':
+      return 0;
+
+    case 'white':
+      return 9;
+
+    case 'orange':
+      return 3;
+
+    default:
+      return null;
+  }
+};
+
+exports.colorCode = colorCode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2lzdG9yLWNvbG9yLmpzIl0sIm5hbWVzIjpbImNvbG9yQ29kZSIsImNvbG9yIiwidG9Mb3dlckNhc2UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBTyxNQUFNQSxTQUFTLEdBQUlDLEtBQUQsSUFBVztBQUNoQyxVQUFPQSxLQUFLLENBQUNDLFdBQU4sRUFBUDtBQUNJLFNBQUssT0FBTDtBQUNJLGFBQU8sQ0FBUDs7QUFDSixTQUFLLE9BQUw7QUFDSSxhQUFPLENBQVA7O0FBQ0osU0FBSyxRQUFMO0FBQ0ksYUFBTyxDQUFQOztBQUNKO0FBQ0ksYUFBTyxJQUFQO0FBUlI7QUFVSCxDQVhNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGNvbG9yQ29kZSA9IChjb2xvcikgPT4ge1xuICAgIHN3aXRjaChjb2xvci50b0xvd2VyQ2FzZSgpKXtcbiAgICAgICAgY2FzZSAnYmxhY2snOlxuICAgICAgICAgICAgcmV0dXJuIDA7XG4gICAgICAgIGNhc2UgJ3doaXRlJzpcbiAgICAgICAgICAgIHJldHVybiA5O1xuICAgICAgICBjYXNlICdvcmFuZ2UnOlxuICAgICAgICAgICAgcmV0dXJuIDM7XG4gICAgICAgIGRlZmF1bHQgOlxuICAgICAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgfVxufTsiXX0=

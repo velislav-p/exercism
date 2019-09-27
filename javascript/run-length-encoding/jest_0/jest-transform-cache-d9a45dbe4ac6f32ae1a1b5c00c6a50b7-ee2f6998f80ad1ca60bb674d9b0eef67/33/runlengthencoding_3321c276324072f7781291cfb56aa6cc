@@ -1,0 +1,14 @@
+a99efd72b8d16ff3d8d0014d0e708e59
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.encode = void 0;
+
+const encode = string => {
+  return string.replace(/(\w)\1+/g, (m, c) => `${m.length}${c}`);
+};
+
+exports.encode = encode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ1bi1sZW5ndGgtZW5jb2RpbmcuanMiXSwibmFtZXMiOlsiZW5jb2RlIiwic3RyaW5nIiwicmVwbGFjZSIsIm0iLCJjIiwibGVuZ3RoIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsTUFBTSxHQUFHQyxNQUFNLElBQUk7QUFFNUIsU0FBT0EsTUFBTSxDQUFDQyxPQUFQLENBQWUsVUFBZixFQUEyQixDQUFDQyxDQUFELEVBQUlDLENBQUosS0FBVyxHQUFFRCxDQUFDLENBQUNFLE1BQU8sR0FBRUQsQ0FBRSxFQUFyRCxDQUFQO0FBQ0gsQ0FITSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBlbmNvZGUgPSBzdHJpbmcgPT4ge1xuXG4gICAgcmV0dXJuIHN0cmluZy5yZXBsYWNlKC8oXFx3KVxcMSsvZywgKG0sIGMpID0+IGAke20ubGVuZ3RofSR7Y31gKTtcbn07XG5cbiJdfQ==

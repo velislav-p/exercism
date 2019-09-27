@@ -1,0 +1,1 @@
+{"version":3,"sources":["darts.js"],"names":["solve","x","y"],"mappings":";;;;;;;AAAO,MAAMA,KAAK,GAAG,CAACC,CAAD,EAAGC,CAAH,KAAS;AAC1B,SAAOD,CAAC,GAAGC,CAAX;AACH,CAFM","sourcesContent":["export const solve = (x,y) => {\n    return x - y;\n};"]}

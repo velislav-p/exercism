@@ -1,0 +1,1 @@
+{"version":3,"sources":["resistor-color.js"],"names":["resistorColor"],"mappings":";;;;;;;AAAO,MAAMA,aAAa,GAAG,MAAM,CAElC,CAFM","sourcesContent":["export const resistorColor = () => {\n\n};"]}

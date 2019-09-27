@@ -1,0 +1,1 @@
+{"version":3,"sources":["two-fer.js"],"names":["twoFer"],"mappings":";;;;;;;AAAO,MAAMA,MAAM,GAAG,MAAM,CAE3B,CAFM","sourcesContent":["export const twoFer = () => {\n\n};"]}

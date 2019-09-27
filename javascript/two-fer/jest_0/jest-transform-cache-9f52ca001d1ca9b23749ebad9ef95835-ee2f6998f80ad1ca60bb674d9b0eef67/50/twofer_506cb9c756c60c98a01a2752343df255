@@ -1,0 +1,12 @@
+7fa14133b65bfedb108470e2ae2b44f3
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.twoFer = void 0;
+
+const twoFer = () => {};
+
+exports.twoFer = twoFer;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInR3by1mZXIuanMiXSwibmFtZXMiOlsidHdvRmVyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsTUFBTSxHQUFHLE1BQU0sQ0FFM0IsQ0FGTSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCB0d29GZXIgPSAoKSA9PiB7XG5cbn07Il19

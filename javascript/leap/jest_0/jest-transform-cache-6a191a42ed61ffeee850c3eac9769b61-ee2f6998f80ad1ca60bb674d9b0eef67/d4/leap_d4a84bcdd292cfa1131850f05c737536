@@ -1,0 +1,12 @@
+76b12f1ac5ecd4d93a05f977bb57c6fb
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.leap = void 0;
+
+const leap = () => {};
+
+exports.leap = leap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsibGVhcCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLElBQUksR0FBRyxNQUFNLENBRXpCLENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgbGVhcCA9ICgpID0+IHtcblxufSJdfQ==

@@ -1,0 +1,14 @@
+ad09ffb1238f067133c582b686011ec0
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isLeap = void 0;
+
+const isLeap = year => {
+  return year % 4 === 0;
+};
+
+exports.isLeap = isLeap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsiaXNMZWFwIiwieWVhciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLE1BQU0sR0FBSUMsSUFBRCxJQUFVO0FBRTVCLFNBQU9BLElBQUksR0FBRyxDQUFQLEtBQWEsQ0FBcEI7QUFHSCxDQUxNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGlzTGVhcCA9ICh5ZWFyKSA9PiB7XG5cbiAgICByZXR1cm4geWVhciAlIDQgPT09IDA7XG5cblxufTsiXX0=

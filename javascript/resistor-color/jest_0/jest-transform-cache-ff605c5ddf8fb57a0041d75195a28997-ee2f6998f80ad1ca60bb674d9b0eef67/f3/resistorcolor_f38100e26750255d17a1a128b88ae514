@@ -1,0 +1,16 @@
+6358430f1ef9971374c5ce9dee2d835f
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.colorCode = exports.COLORS = void 0;
+const COLORS = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'];
+exports.COLORS = COLORS;
+
+const colorCode = c => {
+  return COLORS.indexOf(c);
+};
+
+exports.colorCode = colorCode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2lzdG9yLWNvbG9yLmpzIl0sIm5hbWVzIjpbIkNPTE9SUyIsImNvbG9yQ29kZSIsImMiLCJpbmRleE9mIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBTyxNQUFNQSxNQUFNLEdBQUcsQ0FBQyxPQUFELEVBQVMsT0FBVCxFQUFpQixLQUFqQixFQUF1QixRQUF2QixFQUFnQyxRQUFoQyxFQUF5QyxPQUF6QyxFQUFpRCxNQUFqRCxFQUF3RCxRQUF4RCxFQUFpRSxNQUFqRSxFQUF3RSxPQUF4RSxDQUFmOzs7QUFFQSxNQUFNQyxTQUFTLEdBQUlDLENBQUQsSUFBTztBQUM1QixTQUFPRixNQUFNLENBQUNHLE9BQVAsQ0FBZUQsQ0FBZixDQUFQO0FBQ0gsQ0FGTSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBDT0xPUlMgPSBbJ2JsYWNrJywnYnJvd24nLCdyZWQnLCdvcmFuZ2UnLCd5ZWxsb3cnLCdncmVlbicsJ2JsdWUnLCd2aW9sZXQnLCdncmV5Jywnd2hpdGUnXTtcblxuZXhwb3J0IGNvbnN0IGNvbG9yQ29kZSA9IChjKSA9PiB7XG4gICAgcmV0dXJuIENPTE9SUy5pbmRleE9mKGMpO1xufTtcblxuIl19

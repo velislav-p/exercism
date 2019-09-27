@@ -1,0 +1,31 @@
+b478e00c194018262a39220486210f14
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isLeap = void 0;
+
+// on every year that is evenly divisible by 4
+// except every year that is evenly divisible by 100
+// unless the year is also evenly divisible by 400
+// Start from the exception and end with the general rule, add any other variables in between???
+const isLeap = year => {
+  // if(year % 400 === 0 && year % 100 === 0 && year % 4 === 0){
+  //     return true;
+  // }
+  //
+  // if(year % 100 === 0 && year % 4 === 0){
+  //     return false;
+  // }
+  //
+  // if(year % 4 === 0){
+  //     return true;
+  // }else {
+  //     return false;
+  // }
+  return year % 100 === 0 ? year % 400 === 0 : year % 4 === 0;
+};
+
+exports.isLeap = isLeap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsiaXNMZWFwIiwieWVhciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUdBO0FBRU8sTUFBTUEsTUFBTSxHQUFJQyxJQUFELElBQVU7QUFFNUI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFHQSxTQUFPQSxJQUFJLEdBQUcsR0FBUCxLQUFlLENBQWYsR0FBbUJBLElBQUksR0FBRyxHQUFQLEtBQWUsQ0FBbEMsR0FBc0NBLElBQUksR0FBRyxDQUFQLEtBQWEsQ0FBMUQ7QUFHSCxDQXBCTSIsInNvdXJjZXNDb250ZW50IjpbIi8vIG9uIGV2ZXJ5IHllYXIgdGhhdCBpcyBldmVubHkgZGl2aXNpYmxlIGJ5IDRcbi8vIGV4Y2VwdCBldmVyeSB5ZWFyIHRoYXQgaXMgZXZlbmx5IGRpdmlzaWJsZSBieSAxMDBcbi8vIHVubGVzcyB0aGUgeWVhciBpcyBhbHNvIGV2ZW5seSBkaXZpc2libGUgYnkgNDAwXG5cblxuLy8gU3RhcnQgZnJvbSB0aGUgZXhjZXB0aW9uIGFuZCBlbmQgd2l0aCB0aGUgZ2VuZXJhbCBydWxlLCBhZGQgYW55IG90aGVyIHZhcmlhYmxlcyBpbiBiZXR3ZWVuPz8/XG5cbmV4cG9ydCBjb25zdCBpc0xlYXAgPSAoeWVhcikgPT4ge1xuXG4gICAgLy8gaWYoeWVhciAlIDQwMCA9PT0gMCAmJiB5ZWFyICUgMTAwID09PSAwICYmIHllYXIgJSA0ID09PSAwKXtcbiAgICAvLyAgICAgcmV0dXJuIHRydWU7XG4gICAgLy8gfVxuICAgIC8vXG4gICAgLy8gaWYoeWVhciAlIDEwMCA9PT0gMCAmJiB5ZWFyICUgNCA9PT0gMCl7XG4gICAgLy8gICAgIHJldHVybiBmYWxzZTtcbiAgICAvLyB9XG4gICAgLy9cbiAgICAvLyBpZih5ZWFyICUgNCA9PT0gMCl7XG4gICAgLy8gICAgIHJldHVybiB0cnVlO1xuICAgIC8vIH1lbHNlIHtcbiAgICAvLyAgICAgcmV0dXJuIGZhbHNlO1xuICAgIC8vIH1cblxuXG4gICAgcmV0dXJuIHllYXIgJSAxMDAgPT09IDAgPyB5ZWFyICUgNDAwID09PSAwIDogeWVhciAlIDQgPT09IDA7XG5cblxufTtcbiJdfQ==

@@ -1,0 +1,1 @@
+{"version":3,"sources":["roman-numerals.js"],"names":["toRoman","x","console","log","toString","length"],"mappings":";;;;;;;AAAO,MAAMA,OAAO,GAAIC,CAAD,IAAO;AAC5BC,EAAAA,OAAO,CAACC,GAAR,CAAYF,CAAC,CAACG,QAAF,GAAaC,MAAzB;AACD,CAFM","sourcesContent":["export const toRoman = (x) => {\n  console.log(x.toString().length);\n};"]}

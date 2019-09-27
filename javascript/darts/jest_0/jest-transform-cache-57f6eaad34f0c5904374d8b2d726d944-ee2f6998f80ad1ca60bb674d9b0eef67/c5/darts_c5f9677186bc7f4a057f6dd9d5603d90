@@ -1,0 +1,18 @@
+3762f9d334ab7d9e425447edfa13e49e
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.solve = void 0;
+
+const solve = (x, y) => {
+  const h = Math.pow(Math.pow(x, 2) + Math.pow(y, 2), 0.5);
+
+  if (h > 5 && h < 10) {
+    return 1;
+  }
+};
+
+exports.solve = solve;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRhcnRzLmpzIl0sIm5hbWVzIjpbInNvbHZlIiwieCIsInkiLCJoIiwiTWF0aCIsInBvdyJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLEtBQUssR0FBRyxDQUFDQyxDQUFELEVBQUdDLENBQUgsS0FBUztBQUMxQixRQUFNQyxDQUFDLEdBQUdDLElBQUksQ0FBQ0MsR0FBTCxDQUFTRCxJQUFJLENBQUNDLEdBQUwsQ0FBU0osQ0FBVCxFQUFXLENBQVgsSUFBZ0JHLElBQUksQ0FBQ0MsR0FBTCxDQUFTSCxDQUFULEVBQVcsQ0FBWCxDQUF6QixFQUF1QyxHQUF2QyxDQUFWOztBQUVBLE1BQUdDLENBQUMsR0FBRyxDQUFKLElBQVNBLENBQUMsR0FBRSxFQUFmLEVBQWtCO0FBQ2QsV0FBTyxDQUFQO0FBQ0g7QUFDSixDQU5NIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHNvbHZlID0gKHgseSkgPT4ge1xuICAgIGNvbnN0IGggPSBNYXRoLnBvdyhNYXRoLnBvdyh4LDIpICsgTWF0aC5wb3coeSwyKSwwLjUpO1xuXG4gICAgaWYoaCA+IDUgJiYgaCA8MTApe1xuICAgICAgICByZXR1cm4gMVxuICAgIH1cbn07Il19

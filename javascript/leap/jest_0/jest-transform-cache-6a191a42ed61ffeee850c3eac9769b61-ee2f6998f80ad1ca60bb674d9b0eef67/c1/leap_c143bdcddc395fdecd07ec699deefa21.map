@@ -1,0 +1,1 @@
+{"version":3,"sources":["leap.js"],"names":["isLeap","year"],"mappings":";;;;;;;AAAO,MAAMA,MAAM,GAAIC,IAAD,IAAU;AAE5B,SAAOA,IAAI,GAAG,CAAP,KAAa,CAApB;AAGH,CALM","sourcesContent":["export const isLeap = (year) => {\n\n    return year % 4 === 0;\n\n\n};"]}

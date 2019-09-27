@@ -1,0 +1,16 @@
+57fd804470e0e47a9d4ed09de5357eac
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isLeap = void 0;
+
+const isLeap = year => {
+  if (year % 4 !== 0) {
+    return "common year";
+  }
+};
+
+exports.isLeap = isLeap;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlYXAuanMiXSwibmFtZXMiOlsiaXNMZWFwIiwieWVhciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLE1BQU0sR0FBSUMsSUFBRCxJQUFVO0FBRTVCLE1BQUdBLElBQUksR0FBRyxDQUFQLEtBQWEsQ0FBaEIsRUFBa0I7QUFDZCxXQUFPLGFBQVA7QUFDSDtBQUNKLENBTE0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgaXNMZWFwID0gKHllYXIpID0+IHtcblxuICAgIGlmKHllYXIgJSA0ICE9PSAwKXtcbiAgICAgICAgcmV0dXJuIFwiY29tbW9uIHllYXJcIjtcbiAgICB9XG59OyJdfQ==

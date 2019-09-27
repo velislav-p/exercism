@@ -1,0 +1,16 @@
+b17f461ddfde9a1b74f6cb737523f671
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.encode = void 0;
+
+const encode = string => {
+  const distinctChars = [...new Set(string)];
+  console.log(string.split(''));
+  return string.length < 1 ? string : "";
+};
+
+exports.encode = encode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ1bi1sZW5ndGgtZW5jb2RpbmcuanMiXSwibmFtZXMiOlsiZW5jb2RlIiwic3RyaW5nIiwiZGlzdGluY3RDaGFycyIsIlNldCIsImNvbnNvbGUiLCJsb2ciLCJzcGxpdCIsImxlbmd0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLE1BQU0sR0FBSUMsTUFBRCxJQUFZO0FBRTlCLFFBQU1DLGFBQWEsR0FBRyxDQUFDLEdBQUcsSUFBSUMsR0FBSixDQUFRRixNQUFSLENBQUosQ0FBdEI7QUFDQUcsRUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVlKLE1BQU0sQ0FBQ0ssS0FBUCxDQUFhLEVBQWIsQ0FBWjtBQUNBLFNBQU9MLE1BQU0sQ0FBQ00sTUFBUCxHQUFnQixDQUFoQixHQUFvQk4sTUFBcEIsR0FBNkIsRUFBcEM7QUFHSCxDQVBNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGVuY29kZSA9IChzdHJpbmcpID0+IHtcblxuICAgIGNvbnN0IGRpc3RpbmN0Q2hhcnMgPSBbLi4ubmV3IFNldChzdHJpbmcpXTtcbiAgICBjb25zb2xlLmxvZyhzdHJpbmcuc3BsaXQoJycpKTtcbiAgICByZXR1cm4gc3RyaW5nLmxlbmd0aCA8IDEgPyBzdHJpbmcgOiBcIlwiO1xuXG5cbn07Il19

@@ -1,0 +1,28 @@
+bc07b477d4d695d326663ea1965093e9
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.decode = exports.encode = void 0;
+
+const encode = string => {
+  return string.replace(/(\w)\1+/g, (_, m, c) => {
+    console.log(_);
+    return `${m.length}${c}`;
+  });
+};
+
+exports.encode = encode;
+
+const decode = string => {
+  return string.replace(/(\d+)(\w)/g, (_, c, d) => {
+    console.log("the underscore: ", _);
+    console.log("c: ", c);
+    console.log("d: ", d);
+    c.repeat(d);
+  });
+};
+
+exports.decode = decode;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ1bi1sZW5ndGgtZW5jb2RpbmcuanMiXSwibmFtZXMiOlsiZW5jb2RlIiwic3RyaW5nIiwicmVwbGFjZSIsIl8iLCJtIiwiYyIsImNvbnNvbGUiLCJsb2ciLCJsZW5ndGgiLCJkZWNvZGUiLCJkIiwicmVwZWF0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsTUFBTSxHQUFHQyxNQUFNLElBQUk7QUFFNUIsU0FBT0EsTUFBTSxDQUFDQyxPQUFQLENBQWUsVUFBZixFQUEyQixDQUFDQyxDQUFELEVBQUdDLENBQUgsRUFBTUMsQ0FBTixLQUFZO0FBQzFDQyxJQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUosQ0FBWjtBQUNBLFdBQVEsR0FBRUMsQ0FBQyxDQUFDSSxNQUFPLEdBQUVILENBQUUsRUFBdkI7QUFDSCxHQUhNLENBQVA7QUFJSCxDQU5NOzs7O0FBUUEsTUFBTUksTUFBTSxHQUFHUixNQUFNLElBQUk7QUFFNUIsU0FBT0EsTUFBTSxDQUFDQyxPQUFQLENBQWUsWUFBZixFQUE2QixDQUFDQyxDQUFELEVBQUdFLENBQUgsRUFBS0ssQ0FBTCxLQUFVO0FBQzFDSixJQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWSxrQkFBWixFQUErQkosQ0FBL0I7QUFDQUcsSUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksS0FBWixFQUFrQkYsQ0FBbEI7QUFDQUMsSUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksS0FBWixFQUFrQkcsQ0FBbEI7QUFDQUwsSUFBQUEsQ0FBQyxDQUFDTSxNQUFGLENBQVNELENBQVQ7QUFDSCxHQUxNLENBQVA7QUFNSCxDQVJNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGVuY29kZSA9IHN0cmluZyA9PiB7XG5cbiAgICByZXR1cm4gc3RyaW5nLnJlcGxhY2UoLyhcXHcpXFwxKy9nLCAoXyxtLCBjKSA9PiB7XG4gICAgICAgIGNvbnNvbGUubG9nKF8pO1xuICAgICAgICByZXR1cm4gYCR7bS5sZW5ndGh9JHtjfWA7XG4gICAgfSk7XG59O1xuXG5leHBvcnQgY29uc3QgZGVjb2RlID0gc3RyaW5nID0+IHtcblxuICAgIHJldHVybiBzdHJpbmcucmVwbGFjZSgvKFxcZCspKFxcdykvZywgKF8sYyxkKT0+IHtcbiAgICAgICAgY29uc29sZS5sb2coXCJ0aGUgdW5kZXJzY29yZTogXCIsXyk7XG4gICAgICAgIGNvbnNvbGUubG9nKFwiYzogXCIsYyk7XG4gICAgICAgIGNvbnNvbGUubG9nKFwiZDogXCIsZCk7XG4gICAgICAgIGMucmVwZWF0KGQpO1xuICAgIH0pO1xufTtcblxuIl19

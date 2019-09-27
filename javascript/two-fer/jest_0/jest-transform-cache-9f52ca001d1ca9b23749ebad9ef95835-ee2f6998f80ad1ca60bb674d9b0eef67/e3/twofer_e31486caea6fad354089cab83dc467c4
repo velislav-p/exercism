@@ -1,0 +1,14 @@
+32211894a92e50dad4af097d28af5827
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.twoFer = void 0;
+
+const twoFer = () => {
+  return "One for you, one for me.";
+};
+
+exports.twoFer = twoFer;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInR3by1mZXIuanMiXSwibmFtZXMiOlsidHdvRmVyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsTUFBTSxHQUFHLE1BQU07QUFDeEIsU0FBTywwQkFBUDtBQUNILENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgdHdvRmVyID0gKCkgPT4ge1xuICAgIHJldHVybiBcIk9uZSBmb3IgeW91LCBvbmUgZm9yIG1lLlwiXG59OyJdfQ==

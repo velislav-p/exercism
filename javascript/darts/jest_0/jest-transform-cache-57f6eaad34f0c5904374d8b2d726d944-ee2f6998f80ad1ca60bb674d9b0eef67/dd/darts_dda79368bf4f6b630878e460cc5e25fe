@@ -1,0 +1,16 @@
+36f972d4d2484ad139f69fe5b9aba653
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.solve = void 0;
+
+const solve = (x, y) => {
+  if (x === 0 || y === 0) {
+    return 0;
+  }
+};
+
+exports.solve = solve;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRhcnRzLmpzIl0sIm5hbWVzIjpbInNvbHZlIiwieCIsInkiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBTyxNQUFNQSxLQUFLLEdBQUcsQ0FBQ0MsQ0FBRCxFQUFHQyxDQUFILEtBQVM7QUFDMUIsTUFBR0QsQ0FBQyxLQUFLLENBQU4sSUFBV0MsQ0FBQyxLQUFLLENBQXBCLEVBQXNCO0FBQ2xCLFdBQU8sQ0FBUDtBQUNIO0FBQ0osQ0FKTSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBzb2x2ZSA9ICh4LHkpID0+IHtcbiAgICBpZih4ID09PSAwIHx8IHkgPT09IDApe1xuICAgICAgICByZXR1cm4gMDtcbiAgICB9XG59OyJdfQ==

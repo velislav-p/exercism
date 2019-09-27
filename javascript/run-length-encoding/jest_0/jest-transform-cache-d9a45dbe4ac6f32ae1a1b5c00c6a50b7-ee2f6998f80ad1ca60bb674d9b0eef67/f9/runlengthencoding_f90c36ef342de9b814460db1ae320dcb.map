@@ -1,0 +1,1 @@
+{"version":3,"sources":["run-length-encoding.js"],"names":["encode"],"mappings":";;;;;;;AAAO,MAAMA,MAAM,GAAG,MAAM,CAE3B,CAFM","sourcesContent":["export const encode = () => {\n\n};"]}

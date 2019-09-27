@@ -1,0 +1,12 @@
+4d2f272c65bbd8a2e52a8d1774d75084
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.resistorColor = void 0;
+
+const resistorColor = () => {};
+
+exports.resistorColor = resistorColor;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2lzdG9yLWNvbG9yLmpzIl0sIm5hbWVzIjpbInJlc2lzdG9yQ29sb3IiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBTyxNQUFNQSxhQUFhLEdBQUcsTUFBTSxDQUVsQyxDQUZNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHJlc2lzdG9yQ29sb3IgPSAoKSA9PiB7XG5cbn07Il19

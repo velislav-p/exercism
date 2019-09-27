@@ -1,0 +1,1 @@
+{"version":3,"sources":["two-fer.js"],"names":["twoFer","name"],"mappings":";;;;;;;AAAO,MAAMA,MAAM,GAAIC,IAAD,IAAU;AAE5B,MAAGA,IAAH,EAAQ;AACJ,WAAQ,WAAUA,IAAK,eAAvB;AACH;;AACD,SAAO,0BAAP;AACH,CANM","sourcesContent":["export const twoFer = (name) => {\n\n    if(name){\n        return `One for ${name}, one for me.`\n    }\n    return \"One for you, one for me.\"\n};"]}

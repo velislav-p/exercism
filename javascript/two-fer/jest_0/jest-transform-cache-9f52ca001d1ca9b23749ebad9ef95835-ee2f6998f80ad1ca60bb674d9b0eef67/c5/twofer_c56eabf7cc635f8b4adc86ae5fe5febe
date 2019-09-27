@@ -1,0 +1,18 @@
+0d440ec049e7633387fcc30254c83932
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.twoFer = void 0;
+
+const twoFer = name => {
+  if (name) {
+    return `One for ${name}, one for me.`;
+  }
+
+  return "One for you, one for me.";
+};
+
+exports.twoFer = twoFer;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInR3by1mZXIuanMiXSwibmFtZXMiOlsidHdvRmVyIiwibmFtZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLE1BQU0sR0FBSUMsSUFBRCxJQUFVO0FBRTVCLE1BQUdBLElBQUgsRUFBUTtBQUNKLFdBQVEsV0FBVUEsSUFBSyxlQUF2QjtBQUNIOztBQUNELFNBQU8sMEJBQVA7QUFDSCxDQU5NIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHR3b0ZlciA9IChuYW1lKSA9PiB7XG5cbiAgICBpZihuYW1lKXtcbiAgICAgICAgcmV0dXJuIGBPbmUgZm9yICR7bmFtZX0sIG9uZSBmb3IgbWUuYFxuICAgIH1cbiAgICByZXR1cm4gXCJPbmUgZm9yIHlvdSwgb25lIGZvciBtZS5cIlxufTsiXX0=

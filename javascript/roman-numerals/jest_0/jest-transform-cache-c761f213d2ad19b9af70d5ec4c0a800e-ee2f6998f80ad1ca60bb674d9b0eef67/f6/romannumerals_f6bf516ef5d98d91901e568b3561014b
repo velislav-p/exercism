@@ -1,0 +1,14 @@
+e59fbd40be61278cbe0ab9bf4df8d261
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.toRoman = void 0;
+
+const toRoman = x => {
+  console.log(x.toString());
+};
+
+exports.toRoman = toRoman;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvbWFuLW51bWVyYWxzLmpzIl0sIm5hbWVzIjpbInRvUm9tYW4iLCJ4IiwiY29uc29sZSIsImxvZyIsInRvU3RyaW5nIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQU8sTUFBTUEsT0FBTyxHQUFJQyxDQUFELElBQU87QUFDNUJDLEVBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZRixDQUFDLENBQUNHLFFBQUYsRUFBWjtBQUNELENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgdG9Sb21hbiA9ICh4KSA9PiB7XG4gIGNvbnNvbGUubG9nKHgudG9TdHJpbmcoKSk7XG59OyJdfQ==

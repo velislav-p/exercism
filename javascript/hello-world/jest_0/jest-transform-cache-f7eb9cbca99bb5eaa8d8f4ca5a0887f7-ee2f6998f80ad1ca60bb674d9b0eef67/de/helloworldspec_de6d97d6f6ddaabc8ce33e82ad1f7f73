@@ -1,0 +1,11 @@
+9c32f89aea2910435bc11e67faf7f244
+"use strict";
+
+var _helloWorld = require("./hello-world");
+
+describe('Hello World', () => {
+  test('says hello', () => {
+    expect((0, _helloWorld.hello)()).toEqual('Hello, World!');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbGxvLXdvcmxkLnNwZWMuanMiXSwibmFtZXMiOlsiZGVzY3JpYmUiLCJ0ZXN0IiwiZXhwZWN0IiwidG9FcXVhbCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFFQUEsUUFBUSxDQUFDLGFBQUQsRUFBZ0IsTUFBTTtBQUM1QkMsRUFBQUEsSUFBSSxDQUFDLFlBQUQsRUFBZSxNQUFNO0FBQ3ZCQyxJQUFBQSxNQUFNLENBQUMsd0JBQUQsQ0FBTixDQUFnQkMsT0FBaEIsQ0FBd0IsZUFBeEI7QUFDRCxHQUZHLENBQUo7QUFHRCxDQUpPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBoZWxsbyB9IGZyb20gJy4vaGVsbG8td29ybGQnO1xuXG5kZXNjcmliZSgnSGVsbG8gV29ybGQnLCAoKSA9PiB7XG4gIHRlc3QoJ3NheXMgaGVsbG8nLCAoKSA9PiB7XG4gICAgZXhwZWN0KGhlbGxvKCkpLnRvRXF1YWwoJ0hlbGxvLCBXb3JsZCEnKTtcbiAgfSk7XG59KTtcbiJdfQ==
